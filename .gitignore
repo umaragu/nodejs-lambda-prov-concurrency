@@ -4,3 +4,5 @@ build
 .aws-sam
 *.zip
 *.toml
+.DS_Store
+node-v14.17.1-linux-x64

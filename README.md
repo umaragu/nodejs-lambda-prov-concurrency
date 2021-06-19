@@ -6,7 +6,16 @@ This sample project exposes a lifecycle hook which will be called during the ini
 
 ## Build layer
 
-Build a layer for custom runtime. The default initialization hook is <b>initGlobals</b>. 
+- Download nodejs
+```bash
+cd layer
+curl https://nodejs.org/dist/v${version}/node-v${version}-linux-x64.tar.xz --output node-v${version}-linux-x64.tar.xz
+tar -xf node-v${version}-linux-x64.tar.xz
+rm node-v${version}-linux-x64.tar.xz
+
+```
+
+- Build a layer for custom runtime. The default initialization hook is <b>initGlobals</b>. 
 To change to a different name, modify the argument in the bootstrap file.
 
 ```bash
