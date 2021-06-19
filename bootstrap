@@ -1,3 +1,0 @@
-#!/bin/sh
-cd $LAMBDA_TASK_ROOT
-./node-v16.0.0-linux-x64/bin/node node_runtime.js

@@ -1,2 +1,6 @@
 # nodejs dependencies
 node_modules
+build
+.aws-sam
+*.zip
+*.toml
