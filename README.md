@@ -22,6 +22,14 @@ aws lambda publish-layer-version \
 
 ## Testing
 
+The test file reads data from a S3 bucket. The build uses webpack. Make sure you have have webpack installed in the env.
+
+```bash
+cd test
+sam build
+sam deploy -g
+```
+
 
 ## Alternate Nodejs Version
 
