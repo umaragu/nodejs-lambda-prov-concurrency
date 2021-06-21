@@ -52,6 +52,8 @@ rm node-v${version}-linux-x64.tar.xz
 
 ```
 
+custom node_runtime.js code is taken from repo https://github.com/lambci/node-custom-lambda
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
